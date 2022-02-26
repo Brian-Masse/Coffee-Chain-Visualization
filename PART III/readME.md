@@ -2,19 +2,24 @@
 
 --- 
 
-![Image](https://github.com/Brian-Masse/Coffee-Chain-Visualization/blob/main/PART%20II/exports/final.png)
+![Image](https://github.com/Brian-Masse/Coffee-Chain-Visualization/blob/main/PART%20III/exports/Final.png)
 
-In this visualization, described by "Distribution: Strips", I thought it would be a good idea to look into how I can rotate the axes and their data. Specifically, how I could get the values vertically, and the series horizontally (creating different “strips” so it fits the prompt of this project perfectly! ) I felt that this was a good next step, as I assumed that this would likely involve restructuring some of my code to make it more object oriented, and thus give it a stronger, more versatile foundation to rest on. *(turns out, I was right!)* 
 
-This update to the grapher gives a much more solid foundation for the entire system, as it enables use of common features across graphs (```domain```, ```axis```) without tying them to any specific visualization (ie. A distribution vis), and an easy way to customize them, without needing to tunnel into the actual structure of the objects. Accomplishing this rotation was both a combination of making certain elements of a vis into specific objects, and some fancy math for positioning everything. The customization is silly a growing list of functions that alters a part of the graph (or one of its properties), and then returns the graph, so a user can chain customizing functions together. While the resulting graph does not look all top dissimilar from the first one in part I, the infrastructure that enables it is far superior!
+For this visualization, ```Distributions: Circular``` I thought it would be good to look at the customizability and universality of mark types. In the end, I would love to have a variety of mark types, that can all be customized through one place, easily, while also useable in a variety of visualizations and contexts. While this was considerably easier task than last project’s rotational series, it posed a unique set of challenges and required me to further modularize my module code! In the abstract, I created a new class (that one day will hopefully be part of a larger number of similar classes) that contains all the data and functions for the ```marl point```. Instead of delegating all rendering processes to the handler, the mark now gets a copy of the handler, and uses that to render itself. This means that I can involve more advanced aspects of rendering (such as transparency, strokes, and shape) without cluttering the handler. This class then gets passed into the distribution class, and in that visualization's render function, the render function of this mark gets called. Although not the most involved solution, I think that its simplicity will enable this (and future marks) to be used in a wider range of contexts. 
 
-In this visualization, as I did last time, I chose the series from the data mostly at random. Here however, I modeled 4 series, so I could showcase the different orientation / layout possibilities that my system now offers!I am super excited to continue to work on this module to create an even more well-rounded, applicable system!
+Soon I hope to add more customizability to other aspects of the graph, such as series titles, series ticks, vis title, and domain, but this was a good proof of concept to see how I might successfully add those features. I would also like to, in the future, be able to handle and render multiple series on one visualization, as this will create a level of nuance and conciseness  that my visualizations currently can't achieve. 
+
+I am still super excited about this project, and the progress that I have made on it, and cannot wait to continue advancing it in the future! 
+
+*(also I changed the name from b_grapher, to **cofee** which I think is not only 1000 million times better, but the most important change that I have made so far!)
+
 
 ---
 
 ## Here are all my links:
 1. [data](https://data.world/2918diy/coffee-chain)
-2. [grapher](https://github.com/Brian-Masse/B_grapher) commit 4, ```rotating the axes```
+2. [coffee](https://github.com/Brian-Masse/B_grapher) commit 6, ```changing the name```
 3. [Part I]( https://github.com/Brian-Masse/Coffee-Chain-Visualization/tree/main/PART%20I )
-4. [Inspiration Project](https://github.com/Brian-Masse/Animals-life-expectancy)
+4. [Part II]( https://github.com/Brian-Masse/Coffee-Chain-Visualization/tree/main/PART%20II )
+5. [Inspiration Project](https://github.com/Brian-Masse/Animals-life-expectancy)
 
