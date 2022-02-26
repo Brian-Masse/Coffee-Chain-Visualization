@@ -1,6 +1,4 @@
-# PART II
-
---- 
+# PART III
 
 ![Image](https://github.com/Brian-Masse/Coffee-Chain-Visualization/blob/main/PART%20III/exports/Final.png)
 
@@ -13,8 +11,6 @@ I am still super excited about this project, and the progress that I have made o
 
 *(also I changed the name from b_grapher, to **cofee** which I think is not only 1000 million times better, but the most important change that I have made so far!)
 
-
----
 
 ## Here are all my links:
 1. [data](https://data.world/2918diy/coffee-chain)
