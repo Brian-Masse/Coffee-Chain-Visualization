@@ -18,4 +18,4 @@ To get a better idea of the scope and content of this specific visualization, I 
 
 and here is the final render:
 
-![Image](https://github.com/Brian-Masse/Coffee-Chain-Visualization/blob/main/exportd/final.png)
+![Image](https://github.com/Brian-Masse/Coffee-Chain-Visualization/blob/main/PART%20I/exportd/final.png)
