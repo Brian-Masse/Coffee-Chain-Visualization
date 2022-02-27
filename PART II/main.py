@@ -9,8 +9,8 @@ import b_grapher.palletts as p
 
 import b_grapher.pyg as pg
 import b_grapher.graphers as g
-import b_grapher.grapher as go
-import b_grapher.graph_props as m
+import coffee.grapher as go
+import coffee.graph_props as m
 
 xls = pd.ExcelFile(
     "independent_work/Coffee Chain Visualization/PART I/data/Coffee Chain.xlsx"
