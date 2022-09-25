@@ -1,24 +1,20 @@
-# PART IV
+# PART V
 
 --- 
 
-![Image](https://github.com/Brian-Masse/Coffee-Chain-Visualization/blob/main/PART%20IV/exports/Final.png)
+![Image](https://github.com/Brian-Masse/Coffee-Chain-Visualization/blob/main/PART%20V/exports/Final.png)
 
-For this visualization, ```Relationships: Correlation``` I investigated my system’s ability to make meaningful connections with other visualizations. Specifically, because it currently lacks the ability to render multiple series next to eachother, I wondered how can I make it easy for a reader to look at the trends from one visualization and compare them to those of another. To accomplish this, I implemented something I had both been dreading and excited for: **Another Visualization Type**. For this project particularly, I went for an area chart, such that I could overlay it with the point distributions I had previously been making to hopefully summarize and compare trends better. 
 
-And, after I endured endless minor data formatting problems, positional misalignments, and a million untraceable exceptions, I can confidently say: This was a *major* pain in the ass!
+For this final visualization, ```relationships: space``` I took a more literal approach to the word space: and made the pallett space themed. Although this might not have been my best application of the prompt, it enabled me to work on a super important, but often overlooked (or at least, poorly integrated) component of all data visualizations modules: **customization** 
 
-However, the insights I gained for how to effectively add new visualizations (and specifically those that can handle x, y, and a series) are incredibly valuable, and hopefully legible in my mess of comments. This final product is one that I am incredibly proud of, and I feel much more confident about coffee’s ability to successfully grow into new. I hope that I can continue to develop these visualizations, and refine the back end systems that makes their rendering possible!
+In this project, I made classes out of text, lines, and axis perimeters. This enables a user, for each individual area of the graph, to change any perimeter they like, while also being able to define a commons style for an entire graph. This required some changes to the way data is rendered, and how customization is handled, but in the end it enables a wider breadth of easily customized visualizations, which is always better. In this render, I try to showcase as many of the options that a user has at their disposal, but I know I missed a few (specifically, different point types and overriding color)
 
-Similar to last project, I would still like to modularize some components, and add much *much* more customization to all the chart properties to make more unique and potentially valuable charts! This should be a more relaxing task than the one that I endured today, so I plan to take that on next project, as a sort of recovery!
-
-(Also for those wondering how this relates to the visualization theme: there are two graphs? You can look at the trends presented by the area lines and make correlations? I think thats good enough :) )
-
+As I come to the end of this term, and this class, this project, and specifically where coffee is currently, is a great place to end. Thinking back to the start of the term, and being frustrated with the impossibility of specifying colors in seaborn, I feel that I have learned lots from the data visualization landscape, and have now used that knowledge to solve the problems I encountered within it! I am very proud of the current state of coffee, and my understanding and contributions to the data visualization field, and I am super excited to continue growing both this module, and my skills in this subject!
 
 ---
 
 ## Here are all my links:
 1. [data](https://data.world/2918diy/coffee-chain)
-2. [grapher](https://github.com/Brian-Masse/B_grapher) commit 5, ```adding area chart mostly```
+2. [Coffee](https://github.com/Brian-Masse/B_grapher) commit 5, ```adding area chart mostly```
 4. [Inspiration Project](https://github.com/Brian-Masse/Animals-life-expectancy)
 
