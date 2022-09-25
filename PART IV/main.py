@@ -4,13 +4,13 @@ import numpy as np
 import sys
 
 
-import coffee.color as c
-import coffee.palletts as p
+import cofffee.color as c
+import cofffee.palletts as p
 
-import coffee.pyg as pg
-import coffee.graphers as g
-import coffee.grapher as go
-import coffee.graph_props as m
+import cofffee.pyg as pg
+import cofffee.graphers as g
+import cofffee.grapher as go
+import cofffee.graph_props as m
 
 xls = pd.ExcelFile(
     "independent_work/Coffee Chain Visualization/PART I/data/Coffee Chain.xlsx"
